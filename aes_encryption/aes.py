@@ -10,8 +10,6 @@ def encrypt(input_string: bytes, key: bytes, aes_type: AES_Type) -> bytes:
     if padding_required != 0:
         input_string += bytes([0] * padding_required)
 
-    print(input_string, len(input_string))
-
     input_array = np.array(list(input_string), dtype=np.uint8).reshape((-1, 4, 4))
     key_numpy = np.array(list(key), dtype=np.uint8).reshape(
         (aes_type.value.key_length, 4)
