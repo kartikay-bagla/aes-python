@@ -7,6 +7,8 @@ Python >= 3.10 and poetry (can be installed with `pip install poetry`). The othe
 ### Running
 `poetry run python main.py --help` to get all the arguments.
 
+![image](https://github.com/kartikay-bagla/aes-python-learning/assets/19384906/e5b2cdc1-7540-44a2-80e0-9481a25c4860)
+
 
 ### Generate S-Box Mapping
 
