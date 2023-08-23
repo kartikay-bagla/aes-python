@@ -1,7 +1,7 @@
 # AES Encryption
 This is my implementation of the AES algorithim. Mostly intended as a learning project. Definitely would not recommend using this in any kind of production scenario.
 
-### Requirements
+### Installation/Setup
 Python >= 3.10 and poetry (can be installed with `pip install poetry`). The other dependencies will be installed by poetry.
 
 ### Running
