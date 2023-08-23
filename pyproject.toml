@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "aes-encryption"
+version = "0.1.0"
+description = ""
+authors = ["kartikay-bagla <kartikaybagla@gmail.com>"]
+readme = "README.md"
+packages = [{include = "aes_encryption"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.25.2"
+typer = {extras = ["all"], version = "^0.9.0"}
+
+[tool.poetry.group.dev.dependencies]
+beautifulsoup4 = "^4.12.2"
+flake8 = "^6.1.0"
+black = "^23.7.0"
+mypy = "^1.5.1"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
